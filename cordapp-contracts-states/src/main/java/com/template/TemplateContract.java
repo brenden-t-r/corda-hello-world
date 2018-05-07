@@ -12,7 +12,8 @@ public class TemplateContract implements Contract {
     public static final String TEMPLATE_CONTRACT_ID = "com.template.TemplateContract";
 
     /**
-     * A transaction is considered valid if the verify() function of the contract of each of the transaction's input
+     * A transaction is considered valid if the verify() function of the contract of
+     * each of the transaction's input
      * and output states does not throw an exception.
      */
     @Override
